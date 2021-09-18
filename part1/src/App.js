@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from './Header'
-import Content from './Content'
-import Total from './Total'
+import Header from './components/Header'
+import Content from './components/Content'
+import Total from './components/Total'
 
 const App = () => {
   const course = 'Half Stack application development'
@@ -24,9 +24,9 @@ const App = () => {
         exercises3={exercises3}
       ></Content>
       <Total
-      exercises1={exercises1}
-      exercises2={exercises2}
-      exercises3={exercises3}
+        exercises1={exercises1}
+        exercises2={exercises2}
+        exercises3={exercises3}
       ></Total>
     </>
   )
